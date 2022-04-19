@@ -1,0 +1,374 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2? família=Roboto:ital,wght@0,100;0.300;0.400;1.100;1.300&display=swap');
+@import url('https://fonts.googleapis.com/css2? família=Roboto+Condensado:wght@300;400&display=swap');
+body{
+    background-image: url(../image/fundokart.jpeg);
+    background-attachment: scroll;
+    background-size: 1903px;
+    background-repeat: no-repeat;
+    background-color: rgb(135, 139, 146);
+}
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+#logo img{
+    width: 100%;
+    height: 350px;
+    margin: 0;
+    background-color: rgb(245, 245, 245);
+}
+
+#menu ul{
+    list-style-type: none;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    text-align-last: center;
+    margin-top: -5px;
+    word-spacing: 5px;
+}
+#menu ul li{
+    display: inline;
+}
+#menu ul li a{
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transform: background .4s;  
+}
+#menu ul li a:hover{
+    background-color: rgb(21, 17, 211);
+}
+
+
+#h1{
+    padding-left: 20px;
+    background-color: rgb(142, 192, 93);
+}
+
+#home{
+    text-align-last: center;
+}
+#home h1{
+    text-align-last: center;
+    background-color: rgb(36, 7, 199);
+    width: 100%;
+    margin-top: auto;
+    color: whitesmoke;
+}
+#home p{
+    width: 500px;
+    padding: 2%;
+    background-color:  rgba(43, 8, 238, 0.808);
+    color: #fff;
+}
+#faixacat{
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+#faixacat h1{
+    background-color: black;
+    width: 100%;
+    margin-top: auto;
+    color: whitesmoke;
+}
+
+#infantil{
+    width: 300px;
+    height: 220px;
+    background-color: rgba(42, 8, 238, 0.753);
+    padding: 2%;
+    color: rgb(255, 255, 255);
+}
+#fotoin img{
+    width: 300px;
+    height: 220px;
+}
+#infantil, #fotoin{
+    float: left;
+    margin: 10px;
+}
+#tudoin{
+    width: 700px;
+    margin: auto;
+    text-align-last: center;
+}
+#tudoin h2{
+    width: 680px;
+    text-align-last: left;
+    margin: auto;    
+    color: whitesmoke;
+}
+
+#tematico{
+    width: 300px;
+    height: 250px;
+    background-color:  rgba(42, 8, 238, 0.753);
+    padding: 2%;
+    color: rgb(255, 255, 255);
+
+}
+#tudotem h2{
+    width: 680px;
+    text-align-last: left;
+    margin: auto;
+    color: white;
+}
+#fototem img{
+    width: 300px;
+    height: 250px;
+}
+#tematico, #fototem{
+    float: left;
+    margin: 10px;
+}
+#tudotem{
+    width: 700px;
+    margin: auto;
+    text-align-last: center;
+}
+
+#classico{
+    width: 300px;
+    height: 250px;
+    padding: 2%;
+    background-color:  rgba(42, 8, 238, 0.753);
+    color: rgb(255, 255, 255);
+
+}
+#tudocl h2{
+    text-align-last: left;
+    color: white;
+}
+#fotocl img{
+    width: 300px;
+    height: 250px;
+}
+#classico, #fotocl{
+    float: left;
+    margin: 10px;
+}
+#tudocl{
+    width: 700px;
+    margin: auto;
+    text-align-last: center;
+}
+#faixarank{
+    background-color:  rgb(36, 7, 199);
+    width: 100%;
+    padding: 10px;
+    margin-top: 300px;
+    margin-bottom: 20px;
+}
+
+
+#faixarank h2{
+    width: 700px;
+    padding-left: 0px ;
+    text-align-last: left;
+    color: white;
+
+}
+
+#mario img{
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+#kart img{
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+#crianca img{
+    width: 250px;
+    height: 200px;
+    float: left;
+}
+
+#all{
+    width: 900px;
+    padding: 20px;
+    /* margin-left: 550px; */
+    margin-top: 60px;
+    text-align-last: center;
+}
+
+#textoran{
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 600px;
+    margin-bottom: 1px;
+    color: rgb(229, 255, 0);
+    text-align-last: center;
+}
+#texto1{
+    width: 100px;
+    margin-top: -21px;
+    margin-left: 860px;
+    margin-bottom: 15px;
+    color: rgb(229, 255, 0);
+    text-align-last: center;
+}
+#texto2{
+    width: 100px;
+    margin-top: -35px;
+    margin-left: 1120px;
+    margin-bottom: 10px;
+    color: rgb(229, 255, 0);
+    text-align-last: center;
+}
+
+#rank{
+    float: left;
+    background-color: rgba(19, 39, 226, 0.87);
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(58, 108, 202);
+    text-decoration: none;
+    margin-top: 80px;
+    position:fixed;
+    border-radius: 100%;
+}
+.btn img{
+    padding: 4px;
+    width: 50px;
+    height: 50px;
+
+}
+
+
+
+#faixa{
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+    margin-top: 300px;
+}
+
+
+
+#rodape{
+    background-color: rgba(35, 10, 126);
+    padding: 150px;
+    width: 100%;
+    height: 20px;
+}
+
+#map, #contatos , section {
+    width:1000px;
+    float: initial;
+    list-style-type: none;
+    color: white;
+}
+#map ul{
+    list-style-type: none;
+
+}
+
+section{
+    height: 5px;
+
+}
+
+.rede{
+    width: 90px;
+    height: 90px;
+    float: initial;
+
+    margin-top: -1px;
+    margin-left: -200px;
+    margin-bottom: -160px;
+
+
+}
+
+section .rede img{
+    width: 60px;
+    background-color: rgba(221, 221, 221, 0.911);
+    border-radius: 100%;
+    padding: 4px;
+}
+
+#map{
+    width: 100px;
+    margin-top:  -120px;
+    margin-right: 540px;
+    border-right: 2px solid #fff;
+    border-left: 2px solid #fff;
+    width: 600px;
+    text-align: center;
+    color: white;
+    font-family:'Roboto Condesado';
+
+}
+#map ul{
+    padding-top: 2px;
+    padding: 20px;
+    word-spacing: 5px;
+}
+#map li{
+    padding-top: 3px;
+}
+#map a{
+    text-decoration: none;
+}
+#map a:link{
+    color: white;
+}
+#map a:visited{
+    color: white;
+
+}
+
+#contato{
+    margin-top:  -140px;
+    margin-left: 1130px;
+    border-right: 2px solid #fff;
+    width: 600px;
+    color: white;
+    font-family: 'Roboto Condesado';
+}
+#contato a{
+    text-decoration: none;
+}
+#contato a:link{
+    color: white;
+}
+#contato a:visited{
+    color: white;
+
+}
+#logobl {
+    margin-left: 1490px;
+    margin-top: 50px;
+}
+#logobl img{
+    width: 200px;
+    height: 100px;
+}

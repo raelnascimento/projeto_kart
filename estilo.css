@@ -1,0 +1,34 @@
+body{
+    background-image: url(../image/tentando.jpeg);
+    background-attachment: scroll;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(135, 139, 146);
+}
+
+#bemvindo{
+    text-align-last: center;
+    background-color: rgb(25, 35, 78);
+    padding: 0;
+    margin-top: -4%;
+    margin-left: -2%;
+    margin-right: -8px;
+}
+#bemvindo h1{
+    font-size: 100px;
+    color: white;
+}
+
+#Formulario {
+    margin-left: 35%;
+    background-color: rgb(64, 160, 224);
+    width: 600px;
+    height: 600px;
+    border-radius: 5%;
+}
+
+#Formulario form{
+    margin: 5%;
+    padding-top: 40px;
+
+}

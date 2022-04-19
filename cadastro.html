@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastramento</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <div id="bemvindo">
+        <h1>Seja Bem-Vindo</h1>
+    </div>
+
+    <div id="Formulario">
+        <form action="">
+        <label for="nome"><strong>Nome Completo</strong></label><br>
+        <input type="text" name="nome" size="60%"  required>
+        <br><br>
+        
+        <label for="numero"><strong>Numero de Telefone</strong></label><br>
+        <input type="number" name="numero" required>
+        <br><br>
+
+        <label for="data"><strong>Data da Reserva</strong></label><br>
+        <input type="date" name="data" required>
+        <br><br>
+
+        <label for="hora"><strong>Horario da Reserva</strong></label><br>
+        <input type="time" name="hora" required>
+        <br><br>
+
+        <label for="lista"><strong>Quantidade de Tempo</strong></label>
+        <select name="Lista">
+            <option>15 min</option>
+            <option>30 min</option>
+            <option>1 hora</option>
+        </select>
+        <br><br>
+
+        <label for="texto"><strong>Quantidade de Participantes</strong></label>
+        <br>
+        <textarea name="texto" rows="1" cols="50" >Digite aqui quantas pessoas iram correr</textarea>
+        <br><br>
+
+        <label for="texto"><strong>E-mail para Contato</strong></label>
+        <br>
+        <textarea name="texto" rows="1" cols="50" ></textarea>
+        <br><br>
+
+        <label for="check"><strong>Escolha a Pista desejada: </strong></label>
+        <br>
+        <input name="infantil" value="infantil" type="checkbox" >
+        <label for="infantil"><strong>Infantil</strong></label>
+        <br>
+        <input name="tematico" value="tematico" type="checkbox" >
+        <label for="tematico"><strong>Tematico</strong></label>
+        <br>
+        <input name="classico" value="classico" type="checkbox">
+        <label for="classico"><strong>Classico</strong></label>
+        <br><br>
+
+        <input type="submit" value="Enviar">
+
+        <input type="reset" value="Limpar">
+
+    </form>
+    </div>
+    
+</body>
+</html>
